@@ -1,0 +1,178 @@
+
+body{
+  margin: auto auto;
+}
+@media print {
+  footer{
+    display: none;
+  }
+
+}
+.my-Name{
+  padding: 5px ;
+  /*margin-bottom: 0px;*/
+  background-color: #3d848f;
+  border: #faf4c3 10px solid;
+  /* faf4c3  fcff63 */
+}
+.my-Name>h1{
+  /*FONT*/
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  /*Alignment*/
+  text-align: center;
+  margin: 0px 0px;
+
+}
+
+.my-Name > p {
+  margin-top:-10px;
+  /*FONT*/
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  /*Alignment*/
+  text-align: center;
+}
+.subject{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+  background-color: #d1d1d1;
+  /* margin-bottom: -25px; */
+  padding: 2px 30px;
+  /*Alignment*/
+  text-align: center;
+}
+.about-me{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px; font-style: normal;
+  font-variant: small-caps; font-weight: 700;
+  text-align: center;
+}
+.about-me > h3 {
+  text-decoration:underline;
+  font-size: 32px;
+  margin: 0px;
+  padding: 5px;
+}
+.ab-me-body{
+  display: flex;
+  margin: auto;
+  width: 50%;
+    /* padding: 10px; */
+}
+.ab1{
+  padding-top: 5px;
+}
+.ab2{
+  padding-left: 0%;
+  margin: 25px;
+}
+
+.skills{
+  display: flex;
+  background-color: tan;
+}
+.Computer-skills > h3, .Interests > h3{
+  text-decoration: underline;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px; font-style: normal;
+  font-variant: normal; font-weight: 700;
+
+}
+.Computer-skills > h3{
+  text-indent: 20px;
+  /* padding-left: 50px; */
+}
+
+.Computer-skills, .Interests{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px; font-style: normal;
+  font-variant: small-caps; font-weight: 200;
+  text-align: left;
+}
+.Projects{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  background-color: #ceffa1;
+}
+.Projects >h3{
+
+   font-size: 32px;
+  text-decoration:underline;
+}
+a:hover{
+  color: cyan;
+}
+table{
+  margin-bottom: 25px;
+  margin-left: 30%;
+}
+table, th, td{
+  border: 3px inset black;
+  border-collapse: collapse;
+}
+#Experience{
+  background-color: #a8c4a5;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  padding-bottom: 1px;
+}
+#exp{
+
+  text-decoration:underline;
+  text-align: center;
+  font-size: 32px;
+  margin: 0px;
+  padding: 5px;
+}
+footer{
+  background-color: #bdbdbd;
+  border: 5px maroon solid;
+  padding-bottom: 20px;
+}
+footer h4{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.4;
+}
+.fa-google {
+  background: #e04f4a;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.contact{
+  margin-left: 585px;
+}
+.link::after{
+
+}
