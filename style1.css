@@ -1,9 +1,10 @@
-nav{
+nav {
   background-color: darkkhaki;
   padding-left: 500px;
 }
-h3{
-  font: font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+
+h3 {
+  font: myfont;
   background-color: #3d848f;
   text-align: center;
   margin: 0px 0px;
@@ -13,25 +14,29 @@ h3{
   font-weight: 500;
   border: #faf4c3 10px solid;
 }
-.description h5{
-  font-family: font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+
+.description h5 {
+  font-family: myfont;
   font-size: 22px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
 }
-.description{
-    font-family: font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 18.5714px;
-    background-color: #d1d1d1;
-    padding: 2px 30px;
+
+.description {
+  font-family: myfont;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+  background-color: #d1d1d1;
+  padding: 2px 30px;
 }
 
-.row{
+.row {
   background-color: bisque;
   /* width: 50%; */
 }
+
+/*# sourceMappingURL=style1.css.map */
